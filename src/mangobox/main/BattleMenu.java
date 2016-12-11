@@ -15,7 +15,7 @@ public class BattleMenu implements Listener {
 	}
 	
 	public void OpenBattleMenu(Player player) {
-		battleMenu = Bukkit.createInventory(null, 18, ChatColor.BLUE + "Battle Menu");
+		battleMenu = Bukkit.createInventory(null, 9, ChatColor.BLUE + "Battle Menu");
 		
 		player.openInventory(battleMenu);
 	}
