@@ -1,0 +1,7 @@
+name: MiniBattles
+main: mangobox.main.MiniBattles
+version: 0.1
+commands:
+   battle:
+     description: Opens a lobby for you and your friends!
+     usage: /<command>
